@@ -45,6 +45,8 @@ public class TasksSceneController : MonoBehaviour
             tasksItems[i].SetQuestion(tasks[i].Question);
             tasksItems[i].gameObject.SetActive(true);
         }
+
+
     }
 
     // Update is called once per frame
